@@ -4,16 +4,16 @@
 
 # Site
 title: 送行者的手册
-subtitle: 'Consul_N’s Blog'
-description: ''
+subtitle: Consul_N's Blog
+description: A student majoring Computer Science
 keywords:
-author: Chen Liang
+author: Liang Chen
 language: en
-timezone: 'Asia/Shanghai'
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://www.no8irch6en.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
