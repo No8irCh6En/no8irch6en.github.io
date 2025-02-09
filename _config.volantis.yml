@@ -1,0 +1,229 @@
+custom_css:
+  fontfamily:
+    logofont:
+      fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      name: 'Varela Round'
+      url: volantis-static/media/fonts/VarelaRound/VarelaRound-Regular.ttf # https://gcore.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+      weight: normal
+      style: normal
+    bodyfont:
+      fontfamily: 'UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      name: 'UbuntuMono'
+      url: volantis-static/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf # https://gcore.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
+      weight: normal
+      style: normal
+    codefont:
+      fontfamily: 'Menlo, UbuntuMono, Monaco'
+      # name: 'Monaco'
+      # url: volantis-static/media/fonts/Monaco/Monaco.ttf # https://gcore.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
+      # weight: normal
+      # style: normal
+
+
+############################### Navigation Bar ############################### > start
+# 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
+navbar:
+  visiable: auto # always, auto
+  logo: # choose [img] or [icon + title]
+    img: /images/icons/nana.png # icon: Daiba Nana
+    icon:
+    title:
+  menu:
+    - name: 博客
+      icon: fa-solid fa-rss
+      url: /
+    - name: 分类
+      icon: fa-solid fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fa-solid fa-tags
+      url: tags/
+    - name: 归档
+      icon: fa-solid fa-archive
+      url: archives/
+    - name: 友链
+      icon: fa-solid fa-link
+      url: friends/
+    - name: 关于
+      icon: fa-solid fa-info-circle
+      url: about/
+  search: Search...   # Search bar placeholder
+############################### Navigation Bar ############################### > end
+
+############################### Cover ############################### > start
+cover:
+  height_scheme: full # full, half 
+  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)，个人感觉搜索更简洁
+  display:
+    home: true
+    archive: true
+    others: true # can be written in front-matter 'cover: true'
+  # background: #封面背景，需要上传url
+  background: # /images/cover/xenoblade3-ost.jpg
+  logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+  title:  Off-seer's manual
+  search:  # search bar placeholder 搜索栏里面显示的东西
+  features:
+    - name: 主页
+      icon: #
+      url: /
+    - name: 标签
+      icon: #
+      url: tags/
+
+############################### Cover ############################### > end
+
+plugins:
+  parallax:
+    enable: true
+    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    shuffle: true         # shuffle playlist
+    duration: 3600000       # Duration (ms)
+    fade: 150            # fade duration (ms) (Not more than 1500)
+    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+      - /images/cover/background.jpg
+      - /images/cover/xenoblade3-ost.jpg
+
+  # APlayer is only available in mainland China.
+  # APlayer config: https://github.com/metowolf/MetingJS
+  aplayer:
+    enable: true
+    js:
+      aplayer: https://unpkg.com/aplayer@1.10/dist/APlayer.min.js
+      meting: https://unpkg.com/meting@2.0/dist/Meting.min.js
+    # Required
+    server: netease   # netease, tencent, kugou, xiami, baidu
+    type: playlist    # song, playlist, album, search, artist
+    id: 13288864526    # song id / playlist id / album id / search keyword
+    # Optional
+    fixed: false      # enable fixed mode
+    theme: '#1BCDFC'  # main color
+    autoplay: true   # audio autoplay
+    order: list       # player play order, values: 'list', 'random'
+    loop: all         # player loop play, values: 'all', 'one', 'none'
+    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    list_max_height: 320px # list max height
+    list_folded: true
+
+
+############################### Sidebar ############################### > start
+sidebar:
+  position: right # left right
+  # 主页、分类、归档等独立页面
+  for_page: [blogger, category, tagcloud]
+  # layout: docs/post 这类文章页面
+  for_post: [blogger, toc]
+  # 侧边栏组件库
+  widget_library:
+    # ---------------------------------------
+    # blogger info widget
+    blogger:
+      class: blogger
+      display: [desktop, mobile] # [desktop, mobile]
+      avatar: /images/avatar/daiba-nana.png
+      shape: rectangle # circle, rectangle
+      url: about/
+      title: Consul N
+      subtitle: 我，再生產
+      jinrishici: false
+      social:
+        - icon: fa-solid fa-home
+          url: /
+        - icon: fa-solid fa-envelope
+          url: mailto:3247365200@qq.com
+        - icon: fab fa-github
+          url: https://github.com/No8irCh6En
+        - icon: fa-solid fa-address-card
+          url: /
+
+color_scheme:
+  # ------------
+  # 通用颜色
+  common:
+    # 主题色
+    theme: '#44D7B6'
+    # 链接色
+    link: '#2196f3'
+    # 按钮色
+    button: '#44D7B6'
+    # 鼠标放到交互元素上时的色
+    hover: '#ff5722'
+    # 主题色块内部的文字颜色
+    inner: '#fff'
+    # 选中区域文字的背景颜色
+    selection: 'alpha(#2196f3, 0.2)'
+  # ------------
+  # 亮色主题（默认）
+  light:
+    # 网站背景色
+    site_bg: '#f4f4f4'
+    # 网站背景上的文字
+    site_inner: '#b388ff'
+    # 网站页脚文字
+    site_footer: '#666'
+
+    # 卡片背景色
+    card: '#fff'
+    # 卡片上的普通文字
+    text: '#444'
+
+    # 区块和代码块背景色
+    block: '#f6f6f6'
+    # 代码块高亮时的背景色
+    codeblock: '#FFF7EA'
+    # 行内代码颜色
+    inlinecode: '#D56D28'
+
+    # 文章部分
+    h1: '#444'
+    h2: '#444'
+    h3: '#444'
+    h4: '#444'
+    h5: '#444'
+    h6: '#444'
+    p: '#444'
+
+    # 列表文字
+    list: '#666'
+    # 列表 hover 时的文字
+    list_hl: 'mix($color-theme, #000, 80)'
+    # 辅助性文字
+    meta: '#888'
+  # ------------
+  # 暗色主题
+  dark:
+    # 网站背景色
+    site_bg: '#222'
+    # 网站背景上的文字
+    site_inner: '#eee'
+    # 网站页脚文字
+    site_footer: '#aaa'
+    # 卡片背景色
+    card: '#444'
+    # 卡片上的普通文字
+    text: '#eee'
+
+    # 区块和代码块背景色
+    block: '#3a3a3a'
+    # 代码块高亮时的背景色
+    codeblock: '#343a3c'
+    # 行内代码颜色
+    inlinecode: '#D56D28'
+
+    # 文章部分
+    h1: '#eee'
+    h2: '#eee'
+    h3: '#ddd'
+    h4: '#ddd'
+    h5: '#ddd'
+    h6: '#ddd'
+    p: '#bbb'
+
+    # 列表文字
+    list: '#aaa'
+    # 列表 hover 时的文字
+    list_hl: 'mix($color-theme, #fff, 80)'
+    # 辅助性文字
+    meta: '#888'
+    # 夜间图片亮度
+    brightness: 70%
