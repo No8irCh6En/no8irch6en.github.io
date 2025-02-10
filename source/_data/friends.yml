@@ -1,0 +1,15 @@
+- group: # 分组标题
+  description:  # 分组描述
+  items:
+    - title: QQ # 名称
+      avatar: /images/avatar/chen-quan.jpg # 头像
+      url: https://www.chenquan-tutu.top # 链接
+      screenshot: /images/avatar/chen-quan.jpg # 截图
+      keywords: # 关键词
+      description: 一只兔兔 # 描述
+    - title: 猫王提督归来 # 名称
+      avatar: /images/avatar/jiangxy.png # 头像
+      url: https://github.com/catking01 # 链接
+      screenshot: /images/avatar/jiangxy.png # 截图
+      keywords: # 关键词
+      description: # 描述
