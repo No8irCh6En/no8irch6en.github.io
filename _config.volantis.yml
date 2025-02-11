@@ -18,6 +18,7 @@ custom_css:
       # url: volantis-static/media/fonts/Monaco/Monaco.ttf # https://gcore.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
       # weight: normal
       # style: normal
+    font_smoothing: true
 
 
 ############################### Navigation Bar ############################### > start
