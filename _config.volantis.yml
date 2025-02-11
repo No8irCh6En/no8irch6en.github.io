@@ -25,7 +25,8 @@ custom_css:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: /images/icons/nana.png # icon: Daiba Nana
+    img: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cd8.png # /images/icons/nana.png 
+                                                                 # icon: Daiba Nana
     icon:
     title:
   menu:
@@ -81,8 +82,8 @@ plugins:
     duration: 3600000       # Duration (ms)
     fade: 150            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - /images/cover/background.jpg
-      - /images/cover/xenoblade3-ost.jpg
+      - https://pic1.imgdb.cn/item/67aabcabd0e0a243d4fe3cd2.jpg # /images/cover/background.jpg
+      - https://pic1.imgdb.cn/item/67aabcacd0e0a243d4fe3cd3.jpg # /images/cover/xenoblade3-ost.jpg
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
@@ -124,7 +125,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: /images/avatar/daiba-nana.png
+      avatar: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cd8.png # /images/avatar/daiba-nana.png
       shape: rectangle # circle, rectangle
       url: about/
       title: Consul N
@@ -234,7 +235,7 @@ article:
     meta_library:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
-        avatar: https://www.no8irch6en.top/images/Xeno.jpg
+        avatar: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cda.jpg # ../images/avatar/Xeno.jpg
         name: Liang Chen
         url: https://www.no8irch6en.top
       # 文章创建日期

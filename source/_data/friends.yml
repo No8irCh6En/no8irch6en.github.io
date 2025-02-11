@@ -2,14 +2,14 @@
   description:  # 分组描述
   items:
     - title: QQ # 名称
-      avatar: /images/avatar/chen-quan.jpg # 头像
+      avatar: https://pic1.imgdb.cn/item/67aabcccd0e0a243d4fe3cd7.jpg # /images/avatar/chen-quan.jpg # 头像
       url: https://www.chenquan-tutu.top # 链接
-      screenshot: /images/avatar/chen-quan.jpg # 截图
+      screenshot: https://pic1.imgdb.cn/item/67aabcccd0e0a243d4fe3cd7.jpg # /images/avatar/chen-quan.jpg # 截图
       keywords: # 关键词
       description: 一只兔兔 # 描述
     - title: 猫王提督归来 # 名称
-      avatar: /images/avatar/jiangxy.png # 头像
+      avatar: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cd9.png # /images/avatar/jiangxy.png # 头像
       url: https://github.com/catking01 # 链接
-      screenshot: /images/avatar/jiangxy.png # 截图
+      screenshot: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cd9.png # /images/avatar/jiangxy.png # 截图
       keywords: # 关键词
       description: # 描述
