@@ -25,7 +25,7 @@ custom_css:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://pic1.imgdb.cn/item/67aabccdd0e0a243d4fe3cd8.png # /images/icons/nana.png 
+    img: https://pic1.imgdb.cn/item/67aabc96d0e0a243d4fe3ccd.png # /images/icons/nana.png 
                                                                  # icon: Daiba Nana
     icon:
     title:
