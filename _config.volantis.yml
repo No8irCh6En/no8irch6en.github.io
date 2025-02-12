@@ -49,7 +49,7 @@ navbar:
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
-  search: Search...   # Search bar placeholder
+  search: 搜索   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
 ############################### Cover ############################### > start
@@ -103,7 +103,7 @@ plugins:
     autoplay: true   # audio autoplay
     order: list       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
-    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    volume: 0.4       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 320px # list max height
     list_folded: true
 
@@ -316,7 +316,7 @@ color_scheme:
     # 网站背景上的文字
     site_inner: '#EC407A'
     # 网站页脚文字
-    site_footer: '#FFFF8D'
+    site_footer: '#000000'
 
     # 卡片背景色
     card: '#fff'
