@@ -18,7 +18,8 @@ module.exports = {
         '**/posts/**/*',
         '**/archives/**/*',
         '**/categories/**/*',
-        '**/tags/**/*'
+        '**/tags/**/*',
+        '**/pin/**' // However: IDK whether it's handy or not.
     ],
     /**
      * 按需修改
@@ -63,7 +64,7 @@ module.exports = {
             }
         },
         {
-            urlPattern: /^https:\/\/(cdn\.staticfile\.org|unpkg\.com)\/.*/,
+            urlPattern: /^https:\/\/(cdn\.staticfile\.org|unpkg\.com|pic1\.imgdb\.cn)\/.*/,
             handler: 'CacheFirst',
             options: {
                 cacheName: 'cdn-cache',
