@@ -106,7 +106,7 @@ To achieve this, we have provided you with the pseudo code for `TrieStore::Get` 
 
 本篇着重讨论一下加强数据点的过程。
 
-为了防止
+为了防止这次小朋友还能侥幸通过测试点结果在 Code Review 阶段被处刑，我决定加强测试点。
 
 在审查自己的代码和同学以前的代码的过程中，我发现：
 
