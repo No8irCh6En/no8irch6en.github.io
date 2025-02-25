@@ -112,7 +112,7 @@ To achieve this, we have provided you with the pseudo code for `TrieStore::Get` 
 
 #### Case 1
 
-`test/trie_store_test3/cpp` 可以有效 TLE 掉将多线程的锁的机制写成本质是单线程的程序。例如：
+`test/trie_store_test3.cpp` 可以有效 TLE 掉将多线程的锁的机制写成本质是单线程的程序。例如：
 
 {% folding FalseCase1.cpp %}
 
